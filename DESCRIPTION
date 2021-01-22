@@ -1,0 +1,16 @@
+Package: resources
+Title: Functions to help with Psych 610-710 and beyond
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Michael",
+           family = "Asher",
+           role = c("aut", "cre"),
+           email = "mwasher@wisc.edu")
+Description: These functions help simplify some of what we must do to analyze our data
+License: MIT 
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
+Imports:
+    pwr
