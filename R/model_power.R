@@ -10,6 +10,7 @@
 #' @param alpha Alpha level for the test.
 #' @return Returns an f-squared statistic representing the minimum detectable effect
 #' size with the desired power, degrees of freedom, and alpha.
+#' @export
 mdes <- function(desired_power = .8, num_df, den_df, alpha = .05) {
 
   # overshoot, nearest tenth
@@ -79,6 +80,7 @@ mdes <- function(desired_power = .8, num_df, den_df, alpha = .05) {
 #' # return the power of a study with peta2 of .02 and 50 participants, with
 #' # pa of 5 and pc of 4.
 #' power_analysis(pa = 5, pc = 4, peta2 = .02, n = 50)
+#' @export
 power_analysis <- function(pc = NULL, pa = NULL, n = NULL, alpha = 0.05, power = NULL,
                            f2 = NULL, peta2 = NULL, dr2 = NULL, r2 = NULL) {
   if (is.null(pa) | is.null(pc)) {
