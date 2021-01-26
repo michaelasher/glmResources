@@ -1,4 +1,4 @@
-Package: resources
+Package: glmResources
 Title: Functions to help with Psych 610-710 and beyond
 Version: 0.0.0.9000
 Authors@R: 
